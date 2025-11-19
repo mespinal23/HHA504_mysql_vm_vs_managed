@@ -1,5 +1,16 @@
 # HHA504_mysql_vm_vs_managed
 MySQL on VM vs Managed Service
+
+**Managed Service Cloud**
+
+* **Azure:** Azure Database for MySQL – Flexible Server
+ -Region:
+
+**VM Service Cloud**
+
+* **GCP:** Compute Engine
+
+
 * `README.md` with:
 
   * Cloud chosen and region
