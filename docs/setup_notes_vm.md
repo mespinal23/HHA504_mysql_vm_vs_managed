@@ -14,23 +14,39 @@ b. **Update OS and Install MySQL**: To update, type in the following in your ter
    ```  
 c. **In MySQL: Create User and Grant Privileges**:  
    ```bash
-   create user 'dba'@'%' identified by 'dba2025';
+create user 'melojelo'@'%' identified by 'melojelo2025';
    ```
  ```bash
-  select * from  mysql.user;
+select * from  mysql.user;
    ```  
  ```bash
-  select * from  mysql.user \G
+select * from  mysql.user \G
    ```  
  ```bash
-  grant all privileges on *.* to 'dba'@'%' with grant option;
+grant all privileges on *.* to 'melojelo'@'%' with grant option;
    ```
  ```bash
-  select * from  mysql.user where user like 'dba' \G
-   ```  
-* Any config files you edited (e.g., mysqld.cnf), with the exact lines
-
-
+select * from  mysql.user where user like 'melojelo' \G
+   ```
+```bash
+show databases;
+   ```
+```bash
+create database melojelo;
+   ```
+```bash
+use melojelo;
+   ```
+```bash
+show databases;
+```
+d. **Binding IP Address : Configuration**
+```bash
+sudo apt install nano
+```
+```bash
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+```
 * Troubles you hit and how you solved them
 
 
