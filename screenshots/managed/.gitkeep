@@ -1,1 +1,7 @@
+### 8) What to Capture (Screenshots)
+
+
+* **Managed path:** service creation summary, connection endpoints, network/authorized list, and a simple query window or metrics page.
+* **Python runs:** terminal output of each script printing row counts, plus your environment layout (no secrets).
+
 
