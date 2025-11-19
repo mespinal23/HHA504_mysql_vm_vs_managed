@@ -1,19 +1,39 @@
 # HHA504_mysql_vm_vs_managed
-MySQL on VM vs Managed Service
+## MySQL on VM vs Managed Service
 
-**Managed Service Cloud**
+## **VM Service Cloud**
+
+ * **GCP:** Compute Engine
+
+   * **Region:** us-central1 (Iowa)
+   * **Machine Type:** E2 (e2-small)
+   * **OS:** Ubuntu (10GB is enough for SQL to run smoothly)
+
+* **Firewall Rule:**
+   * **Name:** mysql-connection- allow
+   * **Description:** allows mysql port
+   * **Targets:** All instances in the network
+   * **IPv4 ranges:** 0.0.0.0/0
+
+> [!NOTE]
+> **0.0.0.0/0 is a wild card. It allows all ingress.**
+
+## **Managed Service Cloud**
 
 * **Azure:** Azure Database for MySQL – Flexible Server
+   * **Server name:** mysqlassignment
+   * **Region:** (US) West US 3
+   * **Administrator log in:** dba
+   * **Password:**
+   * **Workload details:** Dev/Test
+   * **Click on Add firewall rule for IP address**
+     
 
-   -Region: (US) West US 3
-
-**VM Service Cloud**
-
-* **GCP:** Compute Engine
-
-   -Region: us-central1 (Iowa)
 
 
+> [!NOTE]
+> **You must use a public IP (for demo): remember to delete resources after submission. They are expensive.**
+* 
 * `README.md` with:
 
   * Cloud chosen and region
@@ -111,31 +131,7 @@ MAN_DB_NAME=class_db_netid
 # scripts/vm_demo.py (similar for managed_demo.py)
 ```
 
-**Notes**
-
-* You must use a public IP (for demo): remember to delete resources after submission. They are expensive. 
-
----
-
-### 8) What to Capture (Screenshots)
-
-* **VM path:** VM creation summary, security group/firewall, MySQL install + `systemctl status mysql`, `mysql --version`, `mysql` prompt showing `SHOW DATABASES;` and your DB/table present.
-* **Managed path:** service creation summary, connection endpoints, network/authorized list, and a simple query window or metrics page.
-* **Python runs:** terminal output of each script printing row counts, plus your environment layout (no secrets).
-
----
-
-### 9) Comparison (`docs/comparison.md`)
-
-Write approximately 200-400 words concluding which you’d choose in production for: (a) a small student app; (b) a departmental analytics DB; (c) a HIPAA-aligned workload (assume a BAA is available in your cloud).
-
----
-
----
-
 ### 10) Safety & Clean-up
 
 * Delete public ingress rules you created.
 * Stop or delete the VM and managed instance after you finish to avoid costs.
-
----
