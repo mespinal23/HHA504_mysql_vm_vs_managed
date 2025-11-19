@@ -2,7 +2,7 @@ Ordered steps you executed, with command snippets
 # Steps
 ## 1. OS Update 
 a. **SSH into your VM** (terminal).  
-b. **Update OS**: To update, type in the following in your terminal:
+b. **Update OS and Install MySQL**: To update, type in the following in your terminal:
    ```bash
    sudo apt-get update
    ```
@@ -12,15 +12,22 @@ b. **Update OS**: To update, type in the following in your terminal:
  ```bash
  sudo mysql
    ```  
-c. **Install Git, Python 3 + pip**:  
+c. **In MySQL: Create User and Grant Privileges**:  
    ```bash
-   sudo apt install python3 python3-pip git -y
+   create user 'dba'@'%' identified by 'dba2025';
    ```
  ```bash
-  git
+  select * from  mysql.user;
    ```  
-
-
+ ```bash
+  select * from  mysql.user \G
+   ```  
+ ```bash
+  grant all privileges on *.* to 'dba'@'%' with grant option;
+   ```
+ ```bash
+  select * from  mysql.user where user like 'dba' \G
+   ```  
 * Any config files you edited (e.g., mysqld.cnf), with the exact lines
 
 
