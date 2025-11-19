@@ -4,11 +4,14 @@ MySQL on VM vs Managed Service
 **Managed Service Cloud**
 
 * **Azure:** Azure Database for MySQL – Flexible Server
- -Region:
+
+   -Region: (US) West US 3
 
 **VM Service Cloud**
 
 * **GCP:** Compute Engine
+
+   -Region: us-central1 (Iowa)
 
 
 * `README.md` with:
