@@ -64,7 +64,7 @@ e. **Restart**
 sudo systemctl restart mysql
 ```
 ```bash
-mysql -u melojelo -h External IP Address -p
+mysql -u melojelo -h (External IP Address) -p
 ```
    * **Enter password**
 ```bash
