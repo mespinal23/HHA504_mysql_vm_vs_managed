@@ -40,13 +40,25 @@ use melojelo;
 ```bash
 show databases;
 ```
+> [!TIP]
+> **When starting the binding IP section, close the terminal and reopen. You will run into errors if you miss this step.**
+
 d. **Binding IP Address : Configuration**
+
 ```bash
 sudo apt install nano
 ```
 ```bash
 sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
 ```
+* change **bind address** to **0.0.0.0**
+* change **mysqlx-bind-address** to **0.0.0.0**
+     * **^O** (control O) to save
+     * Click **Enter** to make sure it saves
+     * **^X** (Control X) to exit
+
+e. **Restart**
+   
 * Troubles you hit and how you solved them
 
 
