@@ -74,5 +74,5 @@ show databases;
 After completing some steps, I had to close and reopen the SSH terminal to make sure everything was installed and working properly.
 
 ## Start-To Finish Time
-Total Time: 
+Total Time: 2 hours
 
