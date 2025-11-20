@@ -47,6 +47,8 @@
 - PyMySQL: `mysql+pymysql://USER:PASS@HOST:PORT/DBNAME`
     - This section gave an error and said no such file or directory
 
+[VScode Terminal Error](screenshots/vscodeTerminal)
+
 ## How secrets stored locally
 - Store real credentials in `.env` (ignored by .gitignore) 
 
