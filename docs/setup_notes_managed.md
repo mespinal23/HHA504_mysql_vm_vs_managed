@@ -7,9 +7,10 @@
 5. Click **Add Firewall rule for IP address**
 
 ## Configuration
-No configuration was required for the managed server through Azure
+No configuration was required for the managed server through the cloud provider (Azure). It was a smooth setup.
 
-Troubles you hit and how you solved them
+## Troubles Encountered
+No issues with the managed server. Simple to create
 
-Start-to-finish elapsed time (minutes) measured by you
-
+## Start To Finish
+Total Time: 15 minutes
