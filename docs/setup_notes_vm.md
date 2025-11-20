@@ -1,5 +1,4 @@
-Ordered steps you executed, with command snippets
-# Steps
+# GCP VM Steps
 ## OS Update 
 a. **SSH into your VM** (terminal).  
 b. **Update OS and Install MySQL**: To update, type in the following in your terminal:
