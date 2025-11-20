@@ -57,8 +57,20 @@ sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
      * Click **Enter** to make sure it saves
      * **^X** (Control X) to exit
 
+> [!NOTE]
+> **In order for the change to occur you need to do a restart. Close the terminal and reopen before doing this step.**
+
 e. **Restart**
-   
+```bash
+sudo systemctl restart mysql
+```
+```bash
+mysql -u melojelo -h External IP Address -p
+```
+**Enter password**
+```bash
+show databases;
+```
 * Troubles you hit and how you solved them
 
 
