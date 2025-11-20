@@ -47,11 +47,9 @@ I did not run `python scripts/vm_demo.py` and `python scripts/managed_demo.py, I
     - This section gave an error and said no such file or directory
 
 ## How secrets stored locally
-- Store real credentials in `.env` (ignored by .gitignore), e.g.:
-  - `VM_DB_USER=class_user`
-  - `VM_DB_PASS=<secret>`
+- Store real credentials in `.env` (ignored by .gitignore) 
 
-## Screenshots included
+## Screenshots
 - `screenshots/vm/` — VM console, firewall, `systemctl status mysql`, mysql prompt
 - `screenshots/managed/` — managed instance creation, connection info, authorized networks
 - `screenshots/run/` — output of `vm_demo.py` and `managed_demo.py`
@@ -61,6 +59,4 @@ I did not run `python scripts/vm_demo.py` and `python scripts/managed_demo.py, I
 
 
 ### 10) Safety & Clean-up
-
-* Delete public ingress rules you created.
 * Stop or delete the VM and managed instance after you finish to avoid costs.
