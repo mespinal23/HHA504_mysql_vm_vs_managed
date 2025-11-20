@@ -1,6 +1,6 @@
 Ordered steps you executed, with command snippets
 # Steps
-## 1. OS Update 
+## OS Update 
 a. **SSH into your VM** (terminal).  
 b. **Update OS and Install MySQL**: To update, type in the following in your terminal:
    ```bash
@@ -67,12 +67,13 @@ sudo systemctl restart mysql
 ```bash
 mysql -u melojelo -h External IP Address -p
 ```
-**Enter password**
+   * **Enter password**
 ```bash
 show databases;
 ```
-* Troubles you hit and how you solved them
+## Troubles Encountered 
+After completing some steps, I had to close and reopen the SSH terminal to make sure everything was installed and working properly.
 
-
-* Start-to-finish elapsed time (minutes) measured by you
+## Start-To Finish Time
+Total Time: 
 
