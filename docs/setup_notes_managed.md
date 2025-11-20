@@ -1,4 +1,7 @@
 Ordered steps you executed, with command snippets
+# Steps for Azure Database for MySQL Flexible Servers
+1. 
+
 
 Any config files you edited (e.g., mysqld.cnf), with the exact lines
 
