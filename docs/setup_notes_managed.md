@@ -1,5 +1,5 @@
-Ordered steps you executed, with command snippets
-# Steps for Azure Database for MySQL Flexible Servers
+# Azure Database for MySQL Flexible Servers
+# Steps 
 1. 
 
 
