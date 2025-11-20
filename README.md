@@ -40,7 +40,8 @@
    source venv/bin/activate
 ```
    
-I did not run `python scripts/vm_demo.py` and `python scripts/managed_demo.py, I felt stuck at this point in the assignment and did not complete.
+> [!NOTE]
+> **I did not run `python scripts/vm_demo.py` and `python scripts/managed_demo.py` I felt stuck at this point in the assignment and did not complete.**
 
 ## Connection string patterns (no secrets)
 - PyMySQL: `mysql+pymysql://USER:PASS@HOST:PORT/DBNAME`
@@ -50,9 +51,12 @@ I did not run `python scripts/vm_demo.py` and `python scripts/managed_demo.py, I
 - Store real credentials in `.env` (ignored by .gitignore) 
 
 ## Screenshots
-- `screenshots/vm/` — VM console, firewall, `systemctl status mysql`, mysql prompt
-- `screenshots/managed/` — managed instance creation, connection info, authorized networks
-- output of `vm_demo.py` and `managed_demo.py`= **none obtained**
+[VM-GCP](screenshots/vm)
+
+[Managed Server](screenshots/managed)
+
+> [!NOTE]
+> **output of `vm_demo.py` and `managed_demo.py`not obtained**
 
 ## Recording
 [Loom](https://www.loom.com/share/4220358dd6084de388355c9a22f78e04)
