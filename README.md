@@ -52,10 +52,10 @@ I did not run `python scripts/vm_demo.py` and `python scripts/managed_demo.py, I
 ## Screenshots
 - `screenshots/vm/` — VM console, firewall, `systemctl status mysql`, mysql prompt
 - `screenshots/managed/` — managed instance creation, connection info, authorized networks
-- `screenshots/run/` — output of `vm_demo.py` and `managed_demo.py`
+- output of `vm_demo.py` and `managed_demo.py`= **none obtained**
 
-## Demo video
-- [Loom/Zoom link here] (2–4 minute recording showing repo + running both scripts)
+## Recording
+[Loom](https://www.loom.com/share/4220358dd6084de388355c9a22f78e04)
 
 
 ### 10) Safety & Clean-up
