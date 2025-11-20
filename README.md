@@ -62,5 +62,5 @@
 [Loom](https://www.loom.com/share/4220358dd6084de388355c9a22f78e04)
 
 
-### 10) Safety & Clean-up
+### Safety & Clean-up
 * Stop or delete the VM and managed instance after you finish to avoid costs.
